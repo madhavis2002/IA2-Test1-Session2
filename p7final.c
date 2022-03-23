@@ -4,6 +4,7 @@ struct _triangle
 float base,altitude,area;
 };
 typedef _triangle Triangle
+
 Triangle input_triangle()
 {
   Triangle b;
@@ -25,5 +26,5 @@ int main(void)
   t = input_triangle();
   find_area(&t);
   output(Triangle t);
-    return 0;
+  return 0;
 }
